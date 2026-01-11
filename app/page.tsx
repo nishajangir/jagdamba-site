@@ -190,36 +190,6 @@ export default function HomePage() {
           backdrop-filter: blur(1px);
           -webkit-backdrop-filter: blur(0.5px);
         }
-        .interactive-image {
-          transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-          cursor: pointer;
-          position: relative;
-        }
-        .interactive-image::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          border-radius: 0.75rem;
-          background: radial-gradient(ellipse at center, transparent 0%, rgba(255, 255, 255, 0.3) 100%);
-          pointer-events: none;
-        }
-        .dark .interactive-image::after {
-          background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
-        }
-        .dark .interactive-image {
-          box-shadow: 0 10px 30px rgba(255, 107, 53, 0.15);
-        }
-        .interactive-image:hover {
-          transform: scale(1.03) translateY(-5px);
-          box-shadow: 0 20px 50px rgba(255, 107, 53, 0.25);
-        }
-        .dark .interactive-image:hover {
-          box-shadow: 0 20px 50px rgba(255, 107, 53, 0.3);
-        }
       `}</style>
       <div
         className="min-h-screen"
@@ -495,7 +465,7 @@ export default function HomePage() {
                   <img
                     src="/industrial-workshop-with-lathe-machines-and-weldin.png"
                     alt="Jagdamba Engineering Workshop"
-                    className="interactive-image rounded-xl w-full border border-border"
+                    className="rounded-xl w-full border border-border"
                   />
                 </div>
               </div>
