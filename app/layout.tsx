@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   keywords:
     "crusher manufacturing Rajasthan, crusher repair Neem Ka Thana, jaw crusher repairing, cone crusher mantle repair, lathe machining Jaipur, mining crusher service",
   generator: "v0.app",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 }
 
 export default function RootLayout({
