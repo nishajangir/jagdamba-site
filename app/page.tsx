@@ -820,7 +820,7 @@ export default function HomePage() {
               <h3 className="font-heading font-bold text-xl text-primary">Jagdamba Engg. Works</h3>
             </div>
             <p className="text-muted-foreground mb-6 text-lg">Crusher Manufacturing & Repair Experts Since 1990</p>
-            <p className="text-sm text-muted-foreground">© 2024 Jagdamba Engg. Works. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2026 Jagdamba Engg. Works. All rights reserved.</p>
           </div>
         </div>
       </footer>
