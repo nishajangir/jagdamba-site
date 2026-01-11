@@ -183,8 +183,10 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img src="/jagdamba-logo.png" alt="Jagdamba Engg. Works Logo" className="h-10 w-10" />
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/15 text-primary">
+                <Factory className="h-5 w-5" />
+              </div>
               <div>
                 <h1 className="font-heading font-bold text-xl text-primary">Jagdamba Engg. Works</h1>
                 <p className="text-xs text-muted-foreground">Since 1990</p>
@@ -811,8 +813,10 @@ export default function HomePage() {
       <footer className="bg-background py-16 border-t border-border">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <div className="flex items-center justify-center space-x-3 mb-6">
-              <img src="/jagdamba-logo.png" alt="Jagdamba Engg. Works Logo" className="h-8 w-8" />
+            <div className="mb-6 flex items-center justify-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/15 text-primary">
+                <Factory className="h-5 w-5" />
+              </div>
               <h3 className="font-heading font-bold text-xl text-primary">Jagdamba Engg. Works</h3>
             </div>
             <p className="text-muted-foreground mb-6 text-lg">Crusher Manufacturing & Repair Experts Since 1990</p>
