@@ -465,7 +465,7 @@ export default function HomePage() {
                   <img
                     src="/industrial-workshop-with-lathe-machines-and-weldin.png"
                     alt="Jagdamba Engineering Workshop"
-                    className="rounded-sm w-full border border-border"
+                    className="rounded-xl w-full border border-border"
                   />
                 </div>
               </div>
