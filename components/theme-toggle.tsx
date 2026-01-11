@@ -29,12 +29,29 @@ export function ThemeToggle({ className }: { className?: string }) {
   }, [])
 
   const currentTheme = (theme ?? "system") as ThemeOption
-  const Icon = THEME_ICONS[currentTheme]
+  const resolvedTheme = mounted ? currentTheme : "system"
+  const Icon = THEME_ICONS[resolvedTheme]
 
   const handleToggle = () => {
     const currentIndex = THEME_ORDER.indexOf(currentTheme)
     const nextTheme = THEME_ORDER[(currentIndex + 1) % THEME_ORDER.length]
     setTheme(nextTheme)
+  }
+
+  if (!mounted) {
+    return (
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        className={cn("gap-2", className)}
+        aria-label="Theme"
+        title="Theme"
+      >
+        <Monitor className="h-4 w-4" />
+        <span className="hidden sm:inline">Theme</span>
+      </Button>
+    )
   }
 
   return (
@@ -45,10 +62,10 @@ export function ThemeToggle({ className }: { className?: string }) {
       onClick={handleToggle}
       className={cn("gap-2", className)}
       aria-label="Cycle theme"
-      title={mounted ? `Theme: ${THEME_LABELS[currentTheme]}` : "Theme"}
+      title={`Theme: ${THEME_LABELS[currentTheme]}`}
     >
       <Icon className="h-4 w-4" />
-      <span className="hidden sm:inline">{mounted ? THEME_LABELS[currentTheme] : "Theme"}</span>
+      <span className="hidden sm:inline">{THEME_LABELS[currentTheme]}</span>
     </Button>
   )
 }

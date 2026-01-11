@@ -4,6 +4,8 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Phone, MessageCircle, MapPin, Clock, Users, Wrench, Factory, Award, Globe, Camera } from "lucide-react"
 
@@ -189,37 +191,24 @@ export default function HomePage() {
               </div>
             </div>
 
-            <nav className="hidden md:flex items-center space-x-8">
-              <button
-                onClick={() => scrollToSection("home")}
-                className="text-foreground hover:text-primary transition-colors cursor-pointer font-medium"
-              >
-                {t.nav.home}
-              </button>
-              <button
-                onClick={() => scrollToSection("about")}
-                className="text-foreground hover:text-primary transition-colors cursor-pointer font-medium"
-              >
-                {t.nav.about}
-              </button>
-              <button
-                onClick={() => scrollToSection("services")}
-                className="text-foreground hover:text-primary transition-colors cursor-pointer font-medium"
-              >
-                {t.nav.services}
-              </button>
-              <button
-                onClick={() => scrollToSection("gallery")}
-                className="text-foreground hover:text-primary transition-colors cursor-pointer font-medium"
-              >
-                {t.nav.gallery}
-              </button>
-              <button
-                onClick={() => scrollToSection("contact")}
-                className="text-foreground hover:text-primary transition-colors cursor-pointer font-medium"
-              >
-                {t.nav.contact}
-              </button>
+            <nav className="hidden md:flex items-center gap-4">
+              {[
+                { id: "home", label: t.nav.home },
+                { id: "about", label: t.nav.about },
+                { id: "services", label: t.nav.services },
+                { id: "gallery", label: t.nav.gallery },
+                { id: "contact", label: t.nav.contact },
+              ].map((item) => (
+                <Button
+                  key={item.id}
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => scrollToSection(item.id)}
+                  className="text-foreground hover:bg-transparent hover:text-primary"
+                >
+                  {item.label}
+                </Button>
+              ))}
             </nav>
 
             <div className="flex items-center space-x-3">
@@ -227,19 +216,18 @@ export default function HomePage() {
                 variant="outline"
                 size="sm"
                 onClick={() => setLanguage(language === "en" ? "hi" : "en")}
-                className="flex items-center space-x-2"
+                className="gap-2"
               >
                 <Globe className="h-4 w-4" />
                 <span>{language === "en" ? "हिंदी" : "English"}</span>
               </Button>
               <ThemeToggle />
-              <a
-                href="tel:+919784064136"
-                className="hidden sm:inline-flex items-center space-x-2 px-3 py-2 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 rounded-md transition-colors duration-200"
-              >
-                <Phone className="h-4 w-4" />
-                <span>{t.contact.phone}</span>
-              </a>
+              <Button asChild size="sm" className="hidden sm:inline-flex">
+                <a href="tel:+919784064136">
+                  <Phone className="h-4 w-4" />
+                  <span>{t.contact.phone}</span>
+                </a>
+              </Button>
             </div>
           </div>
         </div>
@@ -271,22 +259,27 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+919784064136"
-                className="inline-flex items-center justify-center px-8 py-4 font-semibold text-lg bg-primary text-primary-foreground hover:bg-primary/90 rounded-md transition-colors duration-200 shadow-lg hover:shadow-xl"
+              <Button asChild size="lg" className="h-auto px-8 py-4 text-lg shadow-lg hover:shadow-xl">
+                <a href="tel:+919784064136">
+                  <Phone className="h-5 w-5" />
+                  {t.hero.cta1}
+                </a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="h-auto px-8 py-4 text-lg"
               >
-                <Phone className="h-5 w-5 mr-2" />
-                {t.hero.cta1}
-              </a>
-              <a
-                href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 font-semibold text-lg bg-transparent border border-border text-foreground hover:bg-accent hover:text-accent-foreground rounded-md transition-colors duration-200"
-              >
-                <MessageCircle className="h-5 w-5 mr-2" />
-                {t.hero.cta2}
-              </a>
+                <a
+                  href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MessageCircle className="h-5 w-5" />
+                  {t.hero.cta2}
+                </a>
+              </Button>
             </div>
           </div>
         </div>
@@ -681,12 +674,13 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">Call Us</p>
-                    <a
-                      href="tel:+919784064136"
-                      className="font-heading font-bold text-lg hover:text-primary transition-colors duration-200 block"
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="h-auto p-0 font-heading text-lg hover:bg-transparent hover:text-primary"
                     >
-                      {t.contact.phone}
-                    </a>
+                      <a href="tel:+919784064136">{t.contact.phone}</a>
+                    </Button>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -700,14 +694,19 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground mb-1">WhatsApp</p>
-                    <a
-                      href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-heading font-bold text-lg hover:text-primary transition-colors duration-200 block"
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="h-auto p-0 font-heading text-lg hover:bg-transparent hover:text-primary"
                     >
-                      {t.contact.phone}
-                    </a>
+                      <a
+                        href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {t.contact.phone}
+                      </a>
+                    </Button>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -774,23 +773,27 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="pt-0">
                 <form className="space-y-6">
-                  <div>
-                    <label className="block text-sm font-medium text-foreground mb-3">{t.contact.form.name}</label>
-                    <input
+                  <div className="space-y-3">
+                    <Label htmlFor="lead-name">{t.contact.form.name}</Label>
+                    <Input
+                      id="lead-name"
+                      name="name"
                       type="text"
                       required
-                      className="w-full p-4 rounded-md bg-input text-foreground border border-border focus:border-primary focus:outline-none focus:ring-2 focus:ring-ring transition-colors"
                       placeholder={t.contact.form.name}
+                      className="h-12"
                     />
                   </div>
 
-                  <div>
-                    <label className="block text-sm font-medium text-foreground mb-3">{t.contact.form.phone}</label>
-                    <input
+                  <div className="space-y-3">
+                    <Label htmlFor="lead-phone">{t.contact.form.phone}</Label>
+                    <Input
+                      id="lead-phone"
+                      name="phone"
                       type="tel"
                       required
-                      className="w-full p-4 rounded-md bg-input text-foreground border border-border focus:border-primary focus:outline-none focus:ring-2 focus:ring-ring transition-colors"
                       placeholder={t.contact.form.phone}
+                      className="h-12"
                     />
                   </div>
 
@@ -819,14 +822,19 @@ export default function HomePage() {
       </footer>
 
       {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20part%20repair."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
+      <Button
+        asChild
+        size="icon"
+        className="fixed bottom-6 right-6 h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg transition-all duration-300 hover:scale-110 z-50"
       >
-        <MessageCircle className="h-6 w-6" />
-      </a>
+        <a
+          href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20part%20repair."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MessageCircle className="h-6 w-6" />
+        </a>
+      </Button>
     </div>
   )
 }
