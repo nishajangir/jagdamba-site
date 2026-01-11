@@ -32,62 +32,62 @@ export default function HomePage() {
         contact: "Contact",
       },
       hero: {
-        title: "Crusher Manufacturing & Repair Experts Since 1990",
-        subtitle: "Trusted name for crusher manufacturing and repair in Neem Ka Thana and Jaipur",
+        title: "Industrial Crusher Manufacturing & Repair Experts - 30+ Years of Trust",
+        subtitle: "Rajasthan's trusted partner for crusher manufacturing, repair, and heavy machining services serving mining, construction, and cement industries",
         cta1: "Call Now",
-        cta2: "WhatsApp",
-        cta3: "Get Quote",
+        cta2: "WhatsApp Message",
+        cta3: "Free Quote",
       },
       stats: {
-        experience: "30+ Years Experience",
-        workshops: "2 Large Workshops",
-        machines: "15 Lathe Machines",
-        clients: "500+ Satisfied Clients",
+        experience: "30+ Years Excellence",
+        workshops: "2 State-of-the-Art Workshops",
+        machines: "15+ Heavy Lathe Machines",
+        clients: "500+ Industry Clients",
       },
       services: {
-        title: "Our Services",
-        subtitle: "Complete crusher solutions for mining and construction industries",
+        title: "Complete Industrial Solutions",
+        subtitle: "Comprehensive crusher manufacturing, repair, and machining services for mining, construction, and cement industries",
         manufacturing: {
           title: "New Crusher Manufacturing",
-          desc: "Jaw crusher, Cone crusher, Impact crusher manufacturing with precision engineering",
+          desc: "Jaw crushers, cone crushers, impact crushers with precision engineering and high-grade steel construction for optimal performance",
         },
         repair: {
-          title: "Crusher Parts Repair",
-          desc: "Expert repair of jaw plates, mantles, concaves, blow bars, and all crusher components",
+          title: "Expert Crusher Parts Repair",
+          desc: "Specialized repair and replacement of jaw plates, mantles, concaves, blow bars, and all crusher components with quality assurance",
         },
         machining: {
-          title: "Heavy Lathe Machining",
-          desc: "Precision machining services with 15 lathe machines for all industrial requirements",
+          title: "Heavy Lathe & Machining Services",
+          desc: "Precision machining with 15+ modern lathe machines for components of all industrial sizes with tight tolerances",
         },
         welding: {
-          title: "Welding & Hardfacing",
-          desc: "Specialized welding with manganese, MS, and hard alloys for extended component life",
+          title: "Advanced Welding & Hardfacing",
+          desc: "Specialized welding with manganese, MS, and hard alloy hardfacing for extended component life and durability",
         },
       },
       about: {
-        title: "About Jagdamba Engg. Works",
-        desc: "Established in 1990, we are a trusted name in crusher manufacturing and repair services across Rajasthan. With over 30 years of experience and state-of-the-art facilities in Patan and Jaipur, we serve the mining, construction, and cement industries.",
-        facilities: "Our Facilities",
-        locations: "Two Strategic Locations",
+        title: "About Jagdamba Engineering Works - Industry's Trusted Name",
+        desc: "Established in 1990, Jagdamba Engineering Works is a trusted name in industrial crusher manufacturing and heavy machining services across Rajasthan. With 30+ years of expertise and state-of-the-art facilities in Neem Ka Thana (Sikar) and Jaipur, we serve mining, construction, cement, and aggregate industries. Our experienced engineering and technical team ensures highest quality standards and timely delivery for all industrial projects.",
+        facilities: "Modern Facilities & Equipment",
+        locations: "Two Strategic Industrial Locations",
       },
       gallery: {
-        title: "Our Work Gallery",
-        subtitle: "See our expertise in action - from manufacturing to repair",
+        title: "Our Industrial Work Gallery",
+        subtitle: "See our expertise in action - from crusher manufacturing to specialized repair work",
         categories: {
-          workshop: "Workshop & Facilities",
+          workshop: "Workshop Facilities",
           manufacturing: "Manufacturing Process",
           repair: "Repair Work",
           machines: "Machines & Equipment",
         },
       },
       contact: {
-        title: "Contact Us",
-        subtitle: "Get in touch for all your crusher needs",
+        title: "Contact Us Today",
+        subtitle: "Reach out for crusher manufacturing, repair, and heavy machining services across Rajasthan",
         phone: "+91-97840640136",
         email: "jagdambaengg@gmail.com",
         locations: {
-          patan: "Patan Workshop - Neem Ka Thana, Sikar, Rajasthan",
-          jaipur: "Jaipur Workshop - Chandwaji, Jaipur, Rajasthan",
+          patan: "Patan Workshop - Neem Ka Thana, Sikar, Rajasthan 332042",
+          jaipur: "Jaipur Workshop - Chandwaji, Jaipur, Rajasthan 303706",
         },
         form: {
           name: "Your Name",
@@ -107,62 +107,62 @@ export default function HomePage() {
         contact: "संपर्क",
       },
       hero: {
-        title: "क्रशर निर्माण और मरम्मत विशेषज्ञ 1990 से",
-        subtitle: "नीम का थाना और जयपुर में क्रशर बनाने और मरम्मत का विश्वसनीय नाम",
-        cta1: "अभी कॉल करें",
-        cta2: "व्हाट्सऐप",
-        cta3: "कोटेशन पाएं",
+        title: "औद्योगिक क्रशर निर्माण & मरम्मत विशेषज्ञ - 30+ वर्षों का विश्वास",
+        subtitle: "राजस्थान में क्रशर निर्माण, मरम्मत, और भारी मशीनिंग सेवाओं के लिए आपका विश्वसनीय साथी",
+        cta1: "तुरंत कॉल करें",
+        cta2: "व्हाट्सऐप संदेश",
+        cta3: "मुफ्त कोटेशन",
       },
       stats: {
         experience: "30+ साल का अनुभव",
-        workshops: "2 बड़ी वर्कशॉप",
-        machines: "15 लेथ मशीनें",
-        clients: "500+ संतुष्ट ग्राहक",
+        workshops: "2 अत्याधुनिक वर्कशॉप",
+        machines: "15+ भारी लेथ मशीनें",
+        clients: "500+ संतुष्ट उद्योग ग्राहक",
       },
       services: {
-        title: "हमारी सेवाएं",
-        subtitle: "खनन और निर्माण उद्योगों के लिए संपूर्ण क्रशर समाधान",
+        title: "हमारी व्यापक सेवाएं",
+        subtitle: "खनन, निर्माण और उद्योग के लिए संपूर्ण क्रशर समाधान",
         manufacturing: {
           title: "नया क्रशर निर्माण",
-          desc: "जॉ क्रशर, कोन क्रशर, इम्पैक्ट क्रशर का सटीक इंजीनियरिंग के साथ निर्माण",
+          desc: "जॉ क्रशर, कोन क्रशर, इम्पैक्ट क्रशर - प्रिसीजन इंजीनियरिंग और उच्च गुणवत्ता वाली स्टील के साथ",
         },
         repair: {
-          title: "क्रशर पार्ट्स मरम्मत",
-          desc: "जॉ प्लेट्स, मेंटल्स, कॉन्केव्स, ब्लो बार्स और सभी क्रशर घटकों की विशेषज्ञ मरम्मत",
+          title: "क्रशर पार्ट्स की विशेष मरम्मत",
+          desc: "जॉ प्लेट्स, मेंटल्स, कॉन्केव्स, ब्लो बार्स - सभी घटकों की विशेषज्ञ मरम्मत और प्रतिस्थापन सेवा",
         },
         machining: {
-          title: "हेवी लेथ मशीनिंग",
-          desc: "सभी औद्योगिक आवश्यकताओं के लिए 15 लेथ मशीनों के साथ सटीक मशीनिंग सेवाएं",
+          title: "भारी लेथ और मशीनिंग सेवाएं",
+          desc: "15+ आधुनिक लेथ मशीनों के साथ सटीक मशीनिंग - सभी औद्योगिक आकार के पार्ट्स के लिए",
         },
         welding: {
-          title: "वेल्डिंग और हार्डफेसिंग",
-          desc: "घटकों के विस्तारित जीवन के लिए मैंगनीज, एमएस और हार्ड अलॉय के साथ विशेष वेल्डिंग",
+          title: "उन्नत वेल्डिंग और हार्डफेसिंग",
+          desc: "मैंगनीज, एमएस, हार्ड अलॉय - घटकों की लंबी उम्र के लिए विशेष वेल्डिंग तकनीकें",
         },
       },
       about: {
-        title: "जगदम्बा इंजी. वर्क्स के बारे में",
-        desc: "1990 में स्थापित, हम राजस्थान भर में क्रशर निर्माण और मरम्मत सेवाओं में एक विश्वसनीय नाम हैं। 30 से अधिक वर्षों के अनुभव और पाटन और जयपुर में अत्याधुनिक सुविधाओं के साथ, हम खनन, निर्माण और सीमेंट उद्योगों की सेवा करते हैं।",
-        facilities: "हमारी सुविधाएं",
-        locations: "दो रणनीतिक स्थान",
+        title: "जगदम्बा इंजीनियरिंग वर्क्स - औद्योगिक विश्वास का प्रतीक",
+        desc: "1990 में स्थापित, हम राजस्थान में औद्योगिक क्रशर और भारी मशीनिंग का विश्वसनीय नाम हैं। नीम का थाना (सीकर) और जयपुर में हमारी आधुनिक वर्कशॉपें खनन, निर्माण, सीमेंट और कुल उद्योगों की सेवा करती हैं। हमारे अनुभवी इंजीनियर और तकनीशियन दल उच्चतम गुणवत्ता और समय पर डिलीवरी सुनिश्चित करते हैं।",
+        facilities: "अत्याधुनिक सुविधाएं और उपकरण",
+        locations: "दो रणनीतिक औद्योगिक स्थान",
       },
       gallery: {
-        title: "हमारी कार्य गैलरी",
-        subtitle: "निर्माण से मरम्मत तक - हमारी विशेषज्ञता को देखें",
+        title: "हमारी औद्योगिक कार्य गैलरी",
+        subtitle: "क्रशर निर्माण से लेकर मरम्मत तक - हमारी विशेषज्ञता को देखें",
         categories: {
-          workshop: "वर्कशॉप और सुविधाएं",
+          workshop: "वर्कशॉप की सुविधाएं",
           manufacturing: "निर्माण प्रक्रिया",
           repair: "मरम्मत कार्य",
           machines: "मशीनें और उपकरण",
         },
       },
       contact: {
-        title: "संपर्क करें",
-        subtitle: "अपनी सभी क्रशर आवश्यकताओं के लिए संपर्क करें",
+        title: "अभी हमसे संपर्क करें",
+        subtitle: "क्रशर निर्माण, मरम्मत, और मशीनिंग सेवाओं के लिए तुरंत संपर्क करें",
         phone: "+91-97840640136",
         email: "jagdambaengg@gmail.com",
         locations: {
-          patan: "पाटन वर्कशॉप - नीम का थाना, सीकर, राजस्थान",
-          jaipur: "जयपुर वर्कशॉप - चांदवाजी, जयपुर, राजस्थान",
+          patan: "पाटन वर्कशॉप - नीम का थाना, सीकर, राजस्थान 332042",
+          jaipur: "जयपुर वर्कशॉप - चांदवाजी, जयपुर, राजस्थान 303706",
         },
         form: {
           name: "आपका नाम",
@@ -180,15 +180,15 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border">
-        <div className="container mx-auto px-4 py-6">
+      <header className="sticky top-0 z-50 bg-background border-b border-border">
+        <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/15 text-primary">
+              <div className="flex h-10 w-10 items-center justify-center rounded-sm border border-border text-primary">
                 <Factory className="h-5 w-5" />
               </div>
               <div>
-                <h1 className="font-heading font-bold text-xl text-primary">Jagdamba Engg. Works</h1>
+                <h1 className="font-heading font-bold text-lg text-foreground">Jagdamba Engg.</h1>
                 <p className="text-xs text-muted-foreground">Since 1990</p>
               </div>
             </div>
@@ -236,49 +236,48 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="py-24 lg:py-32 relative overflow-hidden bg-background scroll-mt-20">
+      <section id="home" className="py-20 lg:py-24 relative overflow-hidden bg-background scroll-mt-20">
         <div className="absolute inset-0">
           <img
             src="/industrial-crusher-machine-manufacturing-workshop-.png"
             alt="Industrial Workshop Background"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-10"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-card/80 to-secondary/90"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/50"></div>
         </div>
         <div className="container mx-auto px-4 relative">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-8 bg-primary/20 text-primary border-primary/30 px-4 py-2">
-              <Award className="h-4 w-4 mr-2" />
+            <Badge className="mb-6 bg-background text-foreground border border-border px-3 py-1 text-xs">
+              <Award className="h-3 w-3 mr-2" />
               Trusted Since 1990
             </Badge>
 
-            <h1 className="font-heading font-bold text-4xl lg:text-6xl text-balance mb-8 text-foreground leading-tight">
+            <h1 className="font-heading font-bold text-3xl lg:text-5xl text-balance mb-6 text-foreground leading-tight">
               {t.hero.title}
             </h1>
 
-            <p className="text-xl text-muted-foreground mb-12 text-pretty max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto leading-relaxed">
               {t.hero.subtitle}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="h-auto px-8 py-4 text-lg shadow-lg hover:shadow-xl">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Button asChild size="lg" className="h-10 px-6 text-sm border border-primary">
                 <a href="tel:+919784064136">
-                  <Phone className="h-5 w-5" />
+                  <Phone className="h-4 w-4" />
                   {t.hero.cta1}
                 </a>
               </Button>
               <Button
                 asChild
-                variant="outline"
                 size="lg"
-                className="h-auto px-8 py-4 text-lg"
+                className="h-10 px-6 text-sm border border-primary bg-white text-primary hover:bg-primary/5 dark:bg-background dark:text-primary dark:hover:bg-primary/10"
               >
                 <a
                   href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MessageCircle className="h-5 w-5" />
+                  <MessageCircle className="h-4 w-4" />
                   {t.hero.cta2}
                 </a>
               </Button>
@@ -288,44 +287,44 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-card">
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Clock className="h-8 w-8 text-primary" />
+              <div className="flex items-center justify-center mb-4">
+                <div className="h-12 w-12 bg-secondary border border-border rounded-sm flex items-center justify-center">
+                  <Clock className="h-6 w-6 text-primary" />
                 </div>
               </div>
-              <h3 className="font-heading font-bold text-3xl text-foreground mb-2">30+</h3>
-              <p className="text-muted-foreground">{t.stats.experience}</p>
+              <h3 className="font-heading font-bold text-2xl text-foreground mb-1">30+</h3>
+              <p className="text-muted-foreground text-sm">{t.stats.experience}</p>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Factory className="h-8 w-8 text-primary" />
+              <div className="flex items-center justify-center mb-4">
+                <div className="h-12 w-12 bg-secondary border border-border rounded-sm flex items-center justify-center">
+                  <Factory className="h-6 w-6 text-primary" />
                 </div>
               </div>
-              <h3 className="font-heading font-bold text-3xl text-foreground mb-2">2</h3>
-              <p className="text-muted-foreground">{t.stats.workshops}</p>
+              <h3 className="font-heading font-bold text-2xl text-foreground mb-1">2</h3>
+              <p className="text-muted-foreground text-sm">{t.stats.workshops}</p>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Wrench className="h-8 w-8 text-primary" />
+              <div className="flex items-center justify-center mb-4">
+                <div className="h-12 w-12 bg-secondary border border-border rounded-sm flex items-center justify-center">
+                  <Wrench className="h-6 w-6 text-primary" />
                 </div>
               </div>
-              <h3 className="font-heading font-bold text-3xl text-foreground mb-2">15</h3>
-              <p className="text-muted-foreground">{t.stats.machines}</p>
+              <h3 className="font-heading font-bold text-2xl text-foreground mb-1">15</h3>
+              <p className="text-muted-foreground text-sm">{t.stats.machines}</p>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <div className="h-16 w-16 bg-primary/20 rounded-full flex items-center justify-center">
-                  <Users className="h-8 w-8 text-primary" />
+              <div className="flex items-center justify-center mb-4">
+                <div className="h-12 w-12 bg-secondary border border-border rounded-sm flex items-center justify-center">
+                  <Users className="h-6 w-6 text-primary" />
                 </div>
               </div>
-              <h3 className="font-heading font-bold text-3xl text-foreground mb-2">500+</h3>
-              <p className="text-muted-foreground">{t.stats.clients}</p>
+              <h3 className="font-heading font-bold text-2xl text-foreground mb-1">500+</h3>
+              <p className="text-muted-foreground text-sm">{t.stats.clients}</p>
             </div>
           </div>
         </div>
@@ -343,52 +342,56 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <Card className="group border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="pb-4">
-                <div className="h-14 w-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                <div className="h-14 w-14 bg-orange-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-orange-200 transition-colors">
                   <Factory className="h-7 w-7 text-primary" />
                 </div>
-                <CardTitle className="font-heading font-bold text-lg">{t.services.manufacturing.title}</CardTitle>
+                <CardTitle className="font-heading font-bold text-base">{t.services.manufacturing.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="leading-relaxed">{t.services.manufacturing.desc}</CardDescription>
+                <CardDescription className="leading-relaxed text-sm">{t.services.manufacturing.desc}</CardDescription>
+                <p className="text-xs text-muted-foreground mt-3 pt-3 border-t border-border">Jaw • Cone • Impact • Roll • Hammer Crushers</p>
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+            <Card className="group border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="pb-4">
-                <div className="h-14 w-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                <div className="h-14 w-14 bg-orange-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-orange-200 transition-colors">
                   <Wrench className="h-7 w-7 text-primary" />
                 </div>
-                <CardTitle className="font-heading font-bold text-lg">{t.services.repair.title}</CardTitle>
+                <CardTitle className="font-heading font-bold text-base">{t.services.repair.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="leading-relaxed">{t.services.repair.desc}</CardDescription>
+                <CardDescription className="leading-relaxed text-sm">{t.services.repair.desc}</CardDescription>
+                <p className="text-xs text-muted-foreground mt-3 pt-3 border-t border-border">Quick Turnaround • Quality Assurance • Tested Parts</p>
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+            <Card className="group border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="pb-4">
-                <div className="h-14 w-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                <div className="h-14 w-14 bg-orange-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-orange-200 transition-colors">
                   <Users className="h-7 w-7 text-primary" />
                 </div>
-                <CardTitle className="font-heading font-bold text-lg">{t.services.machining.title}</CardTitle>
+                <CardTitle className="font-heading font-bold text-base">{t.services.machining.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="leading-relaxed">{t.services.machining.desc}</CardDescription>
+                <CardDescription className="leading-relaxed text-sm">{t.services.machining.desc}</CardDescription>
+                <p className="text-xs text-muted-foreground mt-3 pt-3 border-t border-border">Turning • Boring • Milling • Threading • Facing</p>
               </CardContent>
             </Card>
 
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+            <Card className="group border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="pb-4">
-                <div className="h-14 w-14 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                <div className="h-14 w-14 bg-orange-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-orange-200 transition-colors">
                   <Award className="h-7 w-7 text-primary" />
                 </div>
-                <CardTitle className="font-heading font-bold text-lg">{t.services.welding.title}</CardTitle>
+                <CardTitle className="font-heading font-bold text-base">{t.services.welding.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="leading-relaxed">{t.services.welding.desc}</CardDescription>
+                <CardDescription className="leading-relaxed text-sm">{t.services.welding.desc}</CardDescription>
+                <p className="text-xs text-muted-foreground mt-3 pt-3 border-t border-border">Manganese • MS • Hard Alloy • Certified Welders</p>
               </CardContent>
             </Card>
           </div>
@@ -407,19 +410,39 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative">
           <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
             <div>
-              <h2 className="font-heading font-bold text-3xl lg:text-5xl text-balance mb-8 text-foreground leading-tight">
+              <h2 className="font-heading font-bold text-3xl lg:text-4xl text-balance mb-6 text-foreground leading-tight">
                 {t.about.title}
               </h2>
-              <p className="text-lg text-muted-foreground mb-10 text-pretty leading-relaxed">{t.about.desc}</p>
+              <p className="text-base text-muted-foreground mb-8 text-pretty leading-relaxed">{t.about.desc}</p>
 
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="h-3 w-3 bg-primary rounded-full"></div>
-                  <span className="text-foreground font-medium">{t.about.facilities}</span>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start space-x-3">
+                  <div className="h-2 w-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="text-foreground font-bold text-sm block">{t.about.facilities}</span>
+                    <span className="text-muted-foreground text-xs">High-speed lathe machines, welding stations, precision measuring instruments</span>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="h-3 w-3 bg-primary rounded-full"></div>
-                  <span className="text-foreground font-medium">{t.about.locations}</span>
+                <div className="flex items-start space-x-3">
+                  <div className="h-2 w-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="text-foreground font-bold text-sm block">{t.about.locations}</span>
+                    <span className="text-muted-foreground text-xs">Neem Ka Thana (Sikar) & Jaipur for faster delivery and service</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="h-2 w-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="text-foreground font-bold text-sm block">Industry Experience</span>
+                    <span className="text-muted-foreground text-xs">Mining, construction, cement, aggregates, and bulk material handling industries</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="h-2 w-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <span className="text-foreground font-bold text-sm block">Quality Assurance</span>
+                    <span className="text-muted-foreground text-xs">All parts tested and certified before delivery with warranty</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -428,7 +451,7 @@ export default function HomePage() {
               <img
                 src="/industrial-workshop-with-lathe-machines-and-weldin.png"
                 alt="Jagdamba Engineering Workshop"
-                className="rounded-lg shadow-2xl w-full border border-border"
+                className="rounded-sm w-full border border-border"
               />
             </div>
           </div>
@@ -451,28 +474,28 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto">
             <Button
               variant="outline"
-              className="flex items-center space-x-2 justify-center py-4 hover:border-primary/50 hover:bg-primary/10 bg-transparent"
+              className="flex items-center space-x-2 justify-center py-4 border border-border text-foreground hover:border-primary bg-white dark:bg-background dark:text-foreground dark:hover:border-primary"
             >
               <Factory className="h-4 w-4" />
               <span>{t.gallery.categories.workshop}</span>
             </Button>
             <Button
               variant="outline"
-              className="flex items-center space-x-2 justify-center py-4 hover:border-primary/50 hover:bg-primary/10 bg-transparent"
+              className="flex items-center space-x-2 justify-center py-4 border border-border text-foreground hover:border-primary bg-white dark:bg-background dark:text-foreground dark:hover:border-primary"
             >
               <Wrench className="h-4 w-4" />
               <span>{t.gallery.categories.manufacturing}</span>
             </Button>
             <Button
               variant="outline"
-              className="flex items-center space-x-2 justify-center py-4 hover:border-primary/50 hover:bg-primary/10 bg-transparent"
+              className="flex items-center space-x-2 justify-center py-4 border border-border text-foreground hover:border-primary bg-white dark:bg-background dark:text-foreground dark:hover:border-primary"
             >
               <Award className="h-4 w-4" />
               <span>{t.gallery.categories.repair}</span>
             </Button>
             <Button
               variant="outline"
-              className="flex items-center space-x-2 justify-center py-4 hover:border-primary/50 hover:bg-primary/10 bg-transparent"
+              className="flex items-center space-x-2 justify-center py-4 border border-border text-foreground hover:border-primary bg-white dark:bg-background dark:text-foreground dark:hover:border-primary"
             >
               <Users className="h-4 w-4" />
               <span>{t.gallery.categories.machines}</span>
@@ -480,9 +503,9 @@ export default function HomePage() {
           </div>
 
           {/* Gallery Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {/* Large Lathe Machine with Marigold Garland */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01136.JPG-awFqDyNo6XV7zfxEtxKBjWOWEhfKOv.jpeg"
                 alt="Large Lathe Machine with Marigold Garland"
@@ -490,17 +513,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Heavy Lathe Machine</h3>
-                  <p className="text-sm opacity-90">Precision Manufacturing</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Heavy Lathe Machine</h3>
+                  <p className="text-xs opacity-90">Precision Manufacturing</p>
                 </div>
               </div>
             </div>
 
             {/* Workshop Interior Overview */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01146.JPG-HuuHqENtolEabRm8GbRpcJJdRoTeCf.jpeg"
                 alt="Workshop Interior with High Ceiling"
@@ -508,17 +528,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Workshop Interior</h3>
-                  <p className="text-sm opacity-90">Spacious Manufacturing Facility</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Workshop Interior</h3>
+                  <p className="text-xs opacity-90">Spacious Manufacturing Facility</p>
                 </div>
               </div>
             </div>
 
             {/* Red Drilling Machine */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01144.JPG-g2dkY5xb86L3DwTv1jrKMcsdNpDRV4.jpeg"
                 alt="Red Drilling Machine and Workshop Equipment"
@@ -526,17 +543,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Drilling Equipment</h3>
-                  <p className="text-sm opacity-90">Precision Drilling Operations</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Drilling Equipment</h3>
+                  <p className="text-xs opacity-90">Precision Drilling Operations</p>
                 </div>
               </div>
             </div>
 
             {/* Band Saw Machines */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01143.JPG-WLHDX2Er1Th7HhBJh4yzzwUb93VPzL.jpeg"
                 alt="Band Saw Machines for Metal Cutting"
@@ -544,17 +558,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Band Saw Machines</h3>
-                  <p className="text-sm opacity-90">Metal Cutting Operations</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Band Saw Machines</h3>
+                  <p className="text-xs opacity-90">Metal Cutting Operations</p>
                 </div>
               </div>
             </div>
 
             {/* Precision Milling Machine */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01139.JPG-ZMG1TxlYGrgJk8SrJMGiP9mfKlmx19.jpeg"
                 alt="Precision Milling and Drilling Machine"
@@ -562,17 +573,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Milling Machine</h3>
-                  <p className="text-sm opacity-90">Precision Component Manufacturing</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Milling Machine</h3>
+                  <p className="text-xs opacity-90">Precision Component Manufacturing</p>
                 </div>
               </div>
             </div>
 
             {/* Large Lathe with Belt Drive */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01142.JPG-q9n0EJPsHlwWVlGecsl5YDr0vXkqEa.jpeg"
                 alt="Large Lathe Machine with Belt Drive System"
@@ -580,17 +588,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Belt Drive Lathe</h3>
-                  <p className="text-sm opacity-90">Heavy Duty Machining</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Belt Drive Lathe</h3>
+                  <p className="text-xs opacity-90">Heavy Duty Machining</p>
                 </div>
               </div>
             </div>
 
             {/* Yellow Hydraulic Press */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01145.JPG-INC5p8lbRVpLr0E3nucRFY2oztXJIn.jpeg"
                 alt="Yellow Hydraulic Press Machine"
@@ -598,17 +603,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Hydraulic Press</h3>
-                  <p className="text-sm opacity-90">Heavy Duty Pressing Operations</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Hydraulic Press</h3>
+                  <p className="text-xs opacity-90">Heavy Duty Pressing Operations</p>
                 </div>
               </div>
             </div>
 
             {/* Modern Lathe Machine */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01138.JPG-cd5j0Dn8xK2Ro51idH82UtTHhFyiXR.jpeg"
                 alt="Modern Lathe Machine with Orange Accents"
@@ -616,17 +618,14 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Modern Lathe</h3>
-                  <p className="text-sm opacity-90">Advanced Machining Technology</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Modern Lathe</h3>
+                  <p className="text-xs opacity-90">Advanced Machining Technology</p>
                 </div>
               </div>
             </div>
 
             {/* Green Lathe Machine */}
-            <div className="group relative overflow-hidden rounded-lg bg-secondary hover:shadow-2xl transition-all duration-300 border border-border">
+            <div className="group relative overflow-hidden rounded-sm bg-secondary border border-border hover:border-primary/50 transition-colors duration-300">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC01137.JPG-FzpP0RYmpfKuwmMABG1hGLpGFo8fAI.jpeg"
                 alt="Green Lathe Machine with Belt Drive"
@@ -634,26 +633,13 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-foreground">
-                  <h3 className="font-heading font-bold text-lg">Industrial Lathe</h3>
-                  <p className="text-sm opacity-90">Crusher Component Manufacturing</p>
-                </div>
-                <div className="absolute top-4 right-4">
-                  <Camera className="h-5 w-5 text-primary" />
+                  <h3 className="font-heading font-bold text-base">Industrial Lathe</h3>
+                  <p className="text-xs opacity-90">Crusher Component Manufacturing</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="text-center mt-16">
-            <Button
-              size="lg"
-              variant="outline"
-              className="flex items-center space-x-2 mx-auto px-8 py-4 hover:border-primary/50 hover:bg-primary/10 bg-transparent"
-            >
-              <Camera className="h-5 w-5" />
-              <span>View More Photos</span>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -667,19 +653,19 @@ export default function HomePage() {
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">{t.contact.subtitle}</p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-8 mb-16 max-w-2xl mx-auto">
-            <Card className="hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+          <div className="grid lg:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
+            <Card className="border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="text-center pb-6">
                 <CardTitle className="flex flex-col items-center space-y-4">
-                  <div className="h-12 w-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                    <Phone className="h-6 w-6 text-primary" />
+                  <div className="h-10 w-10 bg-secondary rounded-sm flex items-center justify-center">
+                    <Phone className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">Call Us</p>
+                    <p className="text-xs text-muted-foreground mb-2">Call Us</p>
                     <Button
                       asChild
                       variant="ghost"
-                      className="h-auto p-0 font-heading text-lg hover:bg-transparent hover:text-primary"
+                      className="h-auto p-0 font-heading text-base hover:bg-transparent hover:text-primary"
                     >
                       <a href="tel:+919784064136">{t.contact.phone}</a>
                     </Button>
@@ -688,18 +674,18 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="hover:shadow-2xl transition-all duration-300 hover:border-primary/50">
+            <Card className="border border-border hover:border-primary/50 transition-colors duration-300">
               <CardHeader className="text-center pb-6">
                 <CardTitle className="flex flex-col items-center space-y-4">
-                  <div className="h-12 w-12 bg-primary/20 rounded-lg flex items-center justify-center">
-                    <MessageCircle className="h-6 w-6 text-primary" />
+                  <div className="h-10 w-10 bg-secondary rounded-sm flex items-center justify-center">
+                    <MessageCircle className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">WhatsApp</p>
+                    <p className="text-xs text-muted-foreground mb-2">WhatsApp</p>
                     <Button
                       asChild
                       variant="ghost"
-                      className="h-auto p-0 font-heading text-lg hover:bg-transparent hover:text-primary"
+                      className="h-auto p-0 font-heading text-base hover:bg-transparent hover:text-primary"
                     >
                       <a
                         href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20manufacturing%20and%20repair%20services."
@@ -715,13 +701,13 @@ export default function HomePage() {
             </Card>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-8 mb-16 max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-6 mb-12 max-w-6xl mx-auto">
             {/* Patan Workshop */}
-            <Card className="overflow-hidden border-border bg-card/80 backdrop-blur">
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2 text-foreground">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  <span>{t.contact.locations.patan}</span>
+            <Card className="overflow-hidden border border-border hover:border-primary/50 transition-colors duration-300">
+              <CardHeader className="pb-3">
+                <CardTitle className="flex items-center space-x-2 text-foreground text-base">
+                  <MapPin className="h-4 w-4 text-primary" />
+                  <span className="text-sm">{t.contact.locations.patan}</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0">
@@ -741,11 +727,11 @@ export default function HomePage() {
             </Card>
 
             {/* Jaipur Workshop */}
-            <Card className="overflow-hidden border-border bg-card/80 backdrop-blur">
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2 text-foreground">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  <span>{t.contact.locations.jaipur}</span>
+            <Card className="overflow-hidden border border-border hover:border-primary/50 transition-colors duration-300">
+              <CardHeader className="pb-3">
+                <CardTitle className="flex items-center space-x-2 text-foreground text-base">
+                  <MapPin className="h-4 w-4 text-primary" />
+                  <span className="text-sm">{t.contact.locations.jaipur}</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0">
@@ -766,40 +752,40 @@ export default function HomePage() {
           </div>
 
           <div className="max-w-2xl mx-auto">
-            <Card>
-              <CardHeader className="text-center pb-6">
-                <CardTitle className="font-heading font-bold text-2xl mb-2">Get Quote for Your Crusher Needs</CardTitle>
-                <CardDescription className="text-base leading-relaxed">
+            <Card className="border border-border">
+              <CardHeader className="text-center pb-4">
+                <CardTitle className="font-heading font-bold text-lg mb-2">Get Quote for Your Crusher Needs</CardTitle>
+                <CardDescription className="text-sm leading-relaxed">
                   Send us your requirements and photos of crusher parts for accurate quotation
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
-                <form className="space-y-6">
-                  <div className="space-y-3">
-                    <Label htmlFor="lead-name">{t.contact.form.name}</Label>
+                <form className="space-y-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="lead-name" className="text-sm">{t.contact.form.name}</Label>
                     <Input
                       id="lead-name"
                       name="name"
                       type="text"
                       required
                       placeholder={t.contact.form.name}
-                      className="h-12"
+                      className="h-10 text-sm"
                     />
                   </div>
 
-                  <div className="space-y-3">
-                    <Label htmlFor="lead-phone">{t.contact.form.phone}</Label>
+                  <div className="space-y-2">
+                    <Label htmlFor="lead-phone" className="text-sm">{t.contact.form.phone}</Label>
                     <Input
                       id="lead-phone"
                       name="phone"
                       type="tel"
                       required
                       placeholder={t.contact.form.phone}
-                      className="h-12"
+                      className="h-10 text-sm"
                     />
                   </div>
 
-                  <Button type="submit" className="w-full py-4 font-semibold" size="lg">
+                  <Button type="submit" className="w-full h-10 font-semibold text-sm" size="sm">
                     {t.contact.form.send}
                   </Button>
                 </form>
@@ -810,17 +796,17 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-background py-16 border-t border-border">
+      <footer className="bg-background py-12 border-t border-border">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="mb-6 flex items-center justify-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/15 text-primary">
-                <Factory className="h-5 w-5" />
+              <div className="flex h-8 w-8 items-center justify-center rounded-sm border border-border text-primary">
+                <Factory className="h-4 w-4" />
               </div>
-              <h3 className="font-heading font-bold text-xl text-primary">Jagdamba Engg. Works</h3>
+              <h3 className="font-heading font-bold text-base text-foreground">Jagdamba Engg.</h3>
             </div>
-            <p className="text-muted-foreground mb-6 text-lg">Crusher Manufacturing & Repair Experts Since 1990</p>
-            <p className="text-sm text-muted-foreground">© 2026 Jagdamba Engg. Works. All rights reserved.</p>
+            <p className="text-muted-foreground mb-4 text-sm">Crusher Manufacturing & Repair Experts Since 1990</p>
+            <p className="text-xs text-muted-foreground">© 2026 Jagdamba Engg. Works. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -829,14 +815,14 @@ export default function HomePage() {
       <Button
         asChild
         size="icon"
-        className="fixed bottom-6 right-6 h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg transition-all duration-300 hover:scale-110 z-50"
+        className="fixed bottom-6 right-6 h-12 w-12 rounded-sm bg-green-600 hover:bg-green-700 text-white border border-green-700 transition-colors duration-300 z-50"
       >
         <a
           href="https://wa.me/919784064136?text=Hi%20Jagdamba%20Engg.%20Works,%20I%20need%20crusher%20part%20repair."
           target="_blank"
           rel="noopener noreferrer"
         >
-          <MessageCircle className="h-6 w-6" />
+          <MessageCircle className="h-5 w-5" />
         </a>
       </Button>
     </div>
